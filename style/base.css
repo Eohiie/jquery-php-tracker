@@ -1,0 +1,67 @@
+/*
+You are allowed to do whatever you want with this layout. Though I would be pleased if you placed a link on your site to csseasy.com or to profit42.com (best "blog about hacking" ever). Donations are also welcome: paypal@profit42.com (or follow the donation button on csseasy.com)
+*/
+
+body{ 
+background-color:#eec;
+font-size:16px; 
+margin:0; 
+padding:0; 
+}
+
+#yif-1 { 
+position: fixed;
+z-index: 100;
+top: 0px;
+width: 100%;
+background-color:#333;
+height:60px;
+padding: 5px;
+color: #a00;
+font-family: imagine_font;
+}
+
+#yif-2 { 
+top: 70px;
+bottom: 20px;
+z-index: 99;
+position: fixed;
+float:left;
+width:200px;
+background-color:#dc8; 
+}
+
+#yif-3 { 
+padding: 20px;
+margin-top: 70 px;
+margin-left: 200px;
+margin-bottom: 50px;
+background-color:#eec;
+min-height: 650px; /* for modern browsers */
+}
+
+#yif-4 { 
+position:fixed;
+z-index: 100;
+bottom: 0px;
+left: 0px;
+right: 0px;
+clear:both;
+background-color:#333;
+height:20px;
+color: #fff;
+}
+
+table#torrentlist {
+	width: 100%;
+  }
+
+table#torrentlist td {
+	padding: 4px;
+}
+
+table#torrentlist th {
+	background-color: #CCCC99;
+	padding: 4px;
+	border-bottom: 2px solid #664D33;
+}
