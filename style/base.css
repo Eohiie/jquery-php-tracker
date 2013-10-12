@@ -3,10 +3,10 @@ You are allowed to do whatever you want with this layout. Though I would be plea
 */
 
 body{ 
-background-color:#eec;
-font-size:16px; 
-margin:0; 
-padding:0; 
+background-color: #BBBBDA;
+font-size: 16px; 
+margin: 0; 
+padding: 0; 
 }
 
 #yif-1 { 
@@ -14,10 +14,10 @@ position: fixed;
 z-index: 100;
 top: 0px;
 width: 100%;
-background-color:#333;
-height:60px;
+background-color: #222241;
+height: 60px;
 padding: 5px;
-color: #a00;
+color: #A5587E;
 font-family: imagine_font;
 }
 
@@ -26,42 +26,65 @@ top: 70px;
 bottom: 20px;
 z-index: 99;
 position: fixed;
-float:left;
-width:200px;
-background-color:#dc8; 
+float: left;
+width: 200px;
+background-color: #5858A5; 
 }
 
 #yif-3 { 
 padding: 20px;
-margin-top: 70 px;
+margin-top: 70px;
 margin-left: 200px;
 margin-bottom: 50px;
-background-color:#eec;
 min-height: 650px; /* for modern browsers */
 }
 
 #yif-4 { 
-position:fixed;
+position: fixed;
 z-index: 100;
 bottom: 0px;
 left: 0px;
 right: 0px;
-clear:both;
-background-color:#333;
-height:20px;
-color: #fff;
+clear: both;
+background-color: #222241;
+height: 20px;
+color: #A5587E;
+}
+
+#Navigation {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 5px;
+    width: 184px;
+    border-left: 3px solid #222241;
+    border-right: 3px solid #222241;
+}
+
+#Navigation li {
+    margin-bottom: 2px;
+    display: block;
+    background-color: #BBBBDA;
+    /*margin-left: 5px;*/
+}
+
+#Navigation a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+    display: block;
 }
 
 table#torrentlist {
-	width: 100%;
+    width: 100%;
   }
 
 table#torrentlist td {
-	padding: 4px;
+    padding: 4px;
 }
 
 table#torrentlist th {
-	background-color: #CCCC99;
-	padding: 4px;
-	border-bottom: 2px solid #664D33;
+    background-color: #CCCC99;
+    padding: 4px;
+    border-bottom: 2px solid #664D33;
 }
